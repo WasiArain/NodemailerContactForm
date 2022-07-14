@@ -2,5 +2,25 @@
   "dependencies": {
     "express": "^4.18.1",
     "nodemailer": "^6.7.7"
-  }
+  },
+  "name": "nodemailercontactform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WasiArain/NodemailerContactForm.git"
+  },
+  "keywords": [],
+  "author": "WasiArain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WasiArain/NodemailerContactForm/issues"
+  },
+  "homepage": "https://github.com/WasiArain/NodemailerContactForm#readme",
+  "description": ""
 }
