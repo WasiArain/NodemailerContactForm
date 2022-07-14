@@ -42,10 +42,10 @@ app.post("/send_email", function(req, response) {
 
     transporter.sendMail(mailOptions, function(error, info){
         if (error) {
-            alert("Error");
+            // alert("Error");
             console.log(error);
         } else {
-            alert("Email sent Succesfully: " + info.response);
+            // alert("Email sent Succesfully: " + info.response);
             console.log("Email Sent: " + info.response);
         }
         response.redirect("/");
